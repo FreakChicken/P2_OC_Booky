@@ -1,0 +1,527 @@
+@media (max-width: 992px) {
+    #bloc_page
+    {
+        margin: 20px 0 0 0;
+    }
+
+    /*Header*/
+
+    header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #logo_booki
+    {
+        margin: 0;
+        width: auto;
+        align-self: center;
+    }
+    #logo_booki img
+    {
+        margin: auto;
+    }
+    nav 
+    {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    nav a 
+    {
+        border-top: none;
+        border-bottom: 3px solid #f2f2f2;
+        padding: 0 30px 7px 30px;       
+    }
+    nav a p 
+    {
+        margin: 0;
+    }
+    nav a:hover
+    {
+        border-top: none;
+        color: black;
+    }
+    nav a:active 
+    {
+        color: #0065fc;
+        border-bottom: 3px solid #0065fc;
+    }
+
+    /*Slogan et formulaire*/
+
+    #slogan
+    {
+        text-align: center;
+    }
+    form
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    #button
+    {
+        position: relative;
+        right: 15px;
+        border-radius: 10px;
+    }
+    #button span
+    {
+        display: none;
+    }
+    #button .fa-magnifying-glass
+    {
+        display: block;
+        width: 30px;
+    }
+
+    /*Filtres et info*/
+
+    #filtres
+    {
+        justify-content: center;
+    }
+    .filtres
+    {
+        margin-bottom: 10px;
+    }
+    #filtres h2
+    {
+        padding-right: 15px;
+    }
+    .filtres:active i
+    {
+        background-color: #0065fc;
+        color: white;
+    }
+    .filtres:active p
+    {
+        border: 2px solid #0065fc;
+        border-left: none;
+        background-color: #0065fc;
+        color: white;
+    }
+    #info
+    {
+        display: flex;
+        justify-content: center;
+    }
+    /*Section 1*/
+
+
+    #section_1
+    {
+        flex-direction: column-reverse;
+    }
+
+
+    /*Partie les plus polulaires*/
+
+
+    #populaire
+    {
+        width: 100%;
+        align-items: center;
+        border-radius: 0;
+        margin: 0;
+    }
+    #pop_titre
+    {
+        width: 100%;
+    }
+    #pop_titre h2
+    {
+        margin-left: 40px;
+    }
+    #pop_titre .fa-solid
+    {
+        margin-right: 40px;
+    }
+    #populaire a
+    {
+        width: 90%;
+        margin: 0 0 10px 0;
+    }
+    .card_populaire
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .card_populaire:hover
+    {
+        transform: none;
+    }
+     /*Partie hebergement à marseille*/
+
+
+     #hebergement
+    {
+        width: 100%;
+        margin: 0;
+        background-color: white;
+    }
+    #hebergement h2
+    {
+    
+       margin: 40px 0 30px 40px;
+    }
+    .card_hebergement
+    {
+       width: 43%;
+       margin: 0 20px 40px 20px;
+    }
+    .card_hebergement:hover
+    {
+        transform: none;
+    }
+    #more
+    {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    /*Partie Activites*/
+
+    #activites
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #activites h2 
+    {
+        padding-left: 40px;
+    }
+    .card_activites_l
+    {
+        width: 43%;
+        height: 430px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    .card_activites_l img 
+    {
+        height: 375px;
+    }
+    .card_activites_l:hover
+    {
+        transform: none;
+    }
+    .card_activites_m
+    {
+        height: 210px;
+        margin-bottom: 20px;
+    }
+    .card_activites_m img 
+    {
+        height: 150px;
+    }
+    .card_activites_m:hover
+    {
+        transform: none;
+    }
+    .card_activites_s
+    {
+        height: 210px;
+        margin-bottom: 20px;
+    }
+    .card_activites_s img 
+    {
+        height: 150px;
+    }
+    .card_activites_s:hover
+    {
+        transform: none;
+    }
+    .card_activites_xs
+    {
+        height: 210px;
+        margin-bottom: 20px;
+    }
+    .card_activites_xs img 
+    {
+        height: 150px;
+    }
+    .card_activites_xs:hover
+    {
+        transform: none;
+    }
+    .double_card
+    {
+        width: 43%;
+        margin-bottom: 20px;
+    }
+
+    /*Footer*/
+
+    footer
+    {
+        margin-top: 30px;
+    }
+    #a_propos
+    {
+        margin: 0 0 0 40px;
+    }
+    #a_propos h3
+    {
+        margin: 40px 0 20px 0;
+    }
+    #nos_hebergements
+    {
+        margin: 0 0 0 40px;
+    }
+    #nos_hebergements h3
+    {
+        margin: 40px 0 20px 0;
+    }
+    #assistance
+    {
+        margin: 0 0 0 40px;
+    }
+    #assistance h3
+    {
+        margin: 40px 0 20px 0;
+    }
+}
+@media (max-width: 768px){
+
+
+    /*Header*/
+
+
+    h1
+    {
+        font-size: 20px;
+    }
+    p 
+    {
+        font-size: 14px;
+    }
+    
+    #logo_booki img 
+    {
+        height: 45px;
+    }
+    nav 
+    {
+        justify-content: center;
+        align-content: center;
+    }
+    nav a 
+    {
+        width: 50%;
+        text-align: center;
+    }
+    .nav_hebergement p
+    {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .nav_activites p
+    {
+        font-size: 15px;
+        padding-right: 10px;
+    }
+    #slogan
+    {
+        margin: 0 20px 0 20px;
+        text-align: start;
+    }
+
+
+    /*Barre de recherche*/
+
+
+    .fa-location-dot
+    {
+        height: 40px;
+        width: 40px;
+        padding-top: 11px;
+    }
+    input
+    {
+        width: 190px;
+        height: 40px;
+    }
+    input::placeholder
+    {
+        font-size: 14px;
+    }
+    #button
+    {
+        height: 40px;
+        width: 40px;
+    }
+    #button .fa-magnifying-glass
+    {
+        padding-right: 10px;
+    }
+
+
+    /*Filtre et Info*/
+
+
+    #filtres
+    {
+        justify-content: flex-start;
+        width: auto;
+    }
+    .filtres
+    {
+        margin-bottom: 0;
+    }
+    .filtres .fa-solid
+    {
+        font-size: medium;
+        height: 40px;
+        width: 40px;
+        padding-top: 20px;
+        left: 18px;
+    }
+    .filtres .fa-dog
+    {
+        padding: 19px 12px 0 12px;
+    }
+    .filtres p
+    {
+        font-size: 12px;
+        height: 40px; 
+        padding: 10px 10px 0 22px;
+    }
+    #filtres h2
+    {
+        width: 100%;
+    } 
+    #info
+    {
+        margin: 0 12px 0 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }   
+    #info span 
+    {
+        font-size: 16px;
+        font-weight: 400;
+        margin: 20px 0 30px 0;
+    }
+    #info .fa-info
+    {
+        font-size: x-small;
+        padding: 6px 6px 8px 6px;
+        margin-top: 18px;
+        margin-right: 6px;
+    }
+
+
+    /*Section 1*/
+
+
+    #section_1
+    {
+        flex-direction: column-reverse;
+    }
+
+
+    /*Partie les plus polulaires*/
+
+
+    #populaire
+    {
+        width: 100%;
+        align-items: center;
+        border-radius: 0;
+        margin: 0;
+    }
+    #pop_titre
+    {
+        justify-content: space-around;
+    }
+    #pop_titre h2
+    {
+        margin-left: 0;
+        padding-left: 20px;
+    }
+    #pop_titre .fa-solid
+    {
+        margin-right: 20px;
+    }
+    .card_populaire
+    {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+
+    /*Partie hebergement à marseille*/
+
+
+    #hebergement
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    #hebergement h2
+    {
+        margin: 30px 0 20px 0;
+        padding-left: 20px;
+    }
+    .card_hebergement
+    {
+        width: 90%;
+        margin: 0 0 10px 0;
+    }
+    #more
+    {
+        margin-top: 20px;
+    }
+
+
+    /*Partie Activites*/
+
+
+    #activites
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    #activites h2 
+    {
+        align-self: flex-start;
+        width: 300px;
+        padding-left: 20px;
+    }
+    .card_activites_l
+    {
+        width: 90%;
+        height: 210px;
+    }
+    .card_activites_l img 
+    {
+        height: 150px;
+    }
+    .double_card
+    {
+        width: 90%;
+        margin-bottom: 0;
+    }
+
+    /*Footer*/
+
+    footer
+    {
+        flex-direction: column;
+    }
+    #a_propos
+    {
+        margin: 0 0 0 20px;
+    }
+    #nos_hebergements
+    {
+        margin: 0 0 0 20px;
+    }
+    #assistance
+    {
+        margin: 0 0 0 20px;
+    }
+
+}
